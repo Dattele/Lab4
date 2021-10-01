@@ -26,7 +26,6 @@ int Q2() {
 // }
 
 int main(int argc, char *argv[]) {
-        std::cout << "Arguments: " << argc << std::endl;
         switch(argv[1][1]) {
                 case '1': Q1(); break;
                 case '2': Q2(); break;
