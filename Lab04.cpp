@@ -29,7 +29,7 @@ void Q3() {
 	std::ifstream inFile("NameFile.txt");
 	std::ifstream gradeFile("input.txt");
 
-	std:string name;
+	std::string name;
 	int num;
 	while ((inFile >> name && gradeFile >> num)) {
 		map.insert(std::pair<std::string, int> {name, num});
