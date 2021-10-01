@@ -18,7 +18,8 @@ int Q2() {
         }     
 
         int average = sum / count;
-        return average;
+ 	std::cout << average;
+ 	return average;
 }
 
 // int Q3() {
